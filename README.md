@@ -3,7 +3,7 @@
 
 install:
 ```
-composer require defyma/yii2-encrypt-url:"1.*"
+composer require defyma/yii2-encrypt-url:"dev-master"
 ```
 
 config/web.php
