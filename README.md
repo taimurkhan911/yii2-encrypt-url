@@ -1,6 +1,11 @@
 # yii2-encrypt-url
 
 
+install:
+```
+composer require defyma/yii2-encrypt-url:"1.*"
+```
+
 config/web.php
 ```
 'urlManager' => [
