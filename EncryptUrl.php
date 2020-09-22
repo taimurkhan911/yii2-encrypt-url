@@ -2,6 +2,11 @@
 
 namespace defyma\helper;
 
+/*
+ * @author PHP Version: M. Ilham <ilhamsuhendra28@gmail.com>
+ * @author JS Version: Defy Ma <defyma85@gmail.com>
+ */
+
 use Exception;
 use yii;
 use yii\web\UrlRuleInterface;
