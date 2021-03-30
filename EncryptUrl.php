@@ -299,7 +299,8 @@ var _0xe956=["\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x73","\x65\x6E\x63\x72\x79\x70
 if(typeof urlEncodeObj != "function"){function urlEncodeObj(url, obj) {let string = '';for (let i in obj) {string += i.toString() + _e['g'].toString() + obj[i].toString() + _e['g'].toString();}string = string.substring(0, string.length - _e['g'].toString().length);return url + '?' + __encodeUri(string);}}if(typeof urlEncode != "function"){function urlEncode(url){let host = url.split('?');host = host[0];let param = __queryjs.get(url);return urlEncodeObj(host, param);}}
 JS;
 
-        $controller->getView()->registerJs($js, \yii\web\View::POS_BEGIN, $this->skey);
+        $decode = file_get_contents(__DIR__ . '/decode.js');//print_r(__DIR__);
+        $controller->getView()->registerJs($js.$decode, \yii\web\View::POS_BEGIN, $this->skey);
     }
 
     /**
