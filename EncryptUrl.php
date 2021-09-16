@@ -1,11 +1,8 @@
 <?php
 
-namespace defyma\helper;
+namespace taimurkhan911\helper;
 
-/*
- * @author PHP Version: M. Ilham <ilhamsuhendra28@gmail.com>
- * @author JS Version: Defy Ma <defyma85@gmail.com>
- */
+ 
 
 use Exception;
 use yii;
